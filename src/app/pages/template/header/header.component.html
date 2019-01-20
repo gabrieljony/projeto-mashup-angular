@@ -1,0 +1,12 @@
+<header>
+    <a href="#/home"><img class="logotipo" src="#" alt="Logotipo Projeto Qlik"></a>
+    <a style="text-align: center;" *ngIf="logado()">
+        <button class="menu" mat-button [matMenuTriggerFor]="menu"><mat-icon class="icon">person</mat-icon></button>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+            <button (click)="loginTela()" *ngIf="!ngOnDestroy()" mat-menu-item>Login</button>
+            <button (click)="telaHome()" *ngIf="ngOnDestroy()" mat-menu-item>Home</button>
+            <button (click)="sairTela()" *ngIf="ngOnDestroy()" mat-menu-item>Sair</button>
+        </mat-menu>
+    </a>
+
+</header>

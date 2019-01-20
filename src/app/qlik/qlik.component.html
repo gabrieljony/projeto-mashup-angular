@@ -1,0 +1,11 @@
+<!-- ko with: home -->
+<div class="row-fluid">
+	<iframe id="frame" class="frame" frameborder="no" name="frame"></iframe>
+</div>
+
+<form  ngNoForm  target="frame" method="post" action={{url}} #Login>
+    <input type="hidden" id="usn" name="username"/>
+    <input type="hidden" id="pwd" name="pwd"/>
+</form>
+
+<!-- /ko -->

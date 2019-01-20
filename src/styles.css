@@ -1,0 +1,79 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    src: url("/assets/fonts/Oswald/Oswald-Regular.ttf");
+    font-family: "Oswald";
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("/assets/fonts/Oswald/Oswald-Light.ttf");
+    font-family: "Oswald Light";
+    font-weight: 300;
+}
+
+@font-face {
+    src: url("/assets/fonts/Oswald/Oswald-Bold.ttf");
+    font-family: "Oswald Bold";
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.no-enter {
+    white-space: nowrap;
+}
+
+.align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    color: #387a98;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald Bold';
+}
+
+.card {
+    width: 100%;
+}
+
+.card-header {
+    padding: 5px;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.btn-padrao {
+    margin: 10px 5px !important;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    background: #387a98;
+    border: #387a98;
+    color: #fff;
+}
+body { margin: 0; }
+
+.example-full-width {
+    width: 100%;
+}
+
+.space-top {
+    margin-top: 70px;
+}
+
+.mat-step-header .mat-step-icon {
+    background: #387a98;
+}
