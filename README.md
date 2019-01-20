@@ -1,6 +1,13 @@
-# Frontend
+# Projeto Mashup Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+## Projeto de integrar os dashboards feitos no Qlink Sense no Angular 6
+
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+## Qlik Sense
+
+Foi usado gerado um template básico mashup na ferramenta do Qlik Sense dev-hub para o exemplo dessa aplicação.
+No component qlik onde tem o url http://localhost:4848/extensions/... informe o caminho do seu mashup gerado na ferramenta do Qlik Sense.
 
 ## Development server
 
